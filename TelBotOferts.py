@@ -18,12 +18,8 @@ BOT_USERNAME: Final
 
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text('Hi, ready to find deals!')
-    num = 5
-    #for indexz in range(5):
-        #prodNum = result_df['ProdNo#'][indexz]
-        #linkFull = f'https://www.amazon.com.mx/dp/{prodNum}/ref=nosim?tag=techymas-20'
-        #await update.message.reply_text(linkFull)
-        #time.sleep(1)
+    
+  
 
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
